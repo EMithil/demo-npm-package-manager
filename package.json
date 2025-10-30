@@ -2,9 +2,10 @@
   "name": "demo-npm-app",
   "version": "1.0.0",
   "scripts": {
-    "test": "echo 'Running sample test... OK'",
-    "start": "node app.js"
-  },
+  "test": "echo 'Running sample test... OK'",
+  "build": "echo 'Building project... Done!'",
+  "start": "node app.js"
+	},
   "dependencies": {
     "express": "^4.18.2"
   }
